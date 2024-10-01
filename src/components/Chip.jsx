@@ -17,13 +17,13 @@ const Chip = () => {
       duration: 2,
       ease: "power2.inOut",
     });
+    animateWithGsap(".g_fadeIn", {
+      opacity: 1,
+      y: 0,
+      duration: 1,
+      ease: "power2.inOut",
+    });
   }, []);
-  animateWithGsap(".g_fadeIn", {
-    opacity: 1,
-    y: 0,
-    duration: 1,
-    ease: "power2.inOut",
-  });
   return (
     <section className="common-padding">
       <div className="screen-max-width">
@@ -40,7 +40,7 @@ const Chip = () => {
             It's here. The biggest redesign in the history of Apple GPUs.
           </p>
         </div>
-        <div className="mt-1 md:mt-20 mb-14">
+        <div className="mt-1 md:mt-20 mb-20">
           <div className="relative h-full flex-center">
             <div className="overflow-hidden">
               <img
@@ -70,7 +70,7 @@ const Chip = () => {
 
         <div className="hiw-text-container">
           <div className="flex flex-1 justify-center flex-col">
-            <p className="hiw-text g_fadeIn mb-10">
+            <p className="hiw-text g_fadeIn mb-20">
               A17 Pro is an entirely new class of iPhone chip that delivers our{" "}
               <span className="text-white">
                 best graphic performance by far
