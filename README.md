@@ -15,7 +15,7 @@ This project is a visually stunning clone of the iPhone 15, developed using Reac
 ### Prerequisites
 Before you begin, ensure you have the following installed:
 
-1. **Node.js 14.\*** or higher
+1. **Node.js 20.\*** or higher
 2. **npm** (Node Package Manager)
 
 ### 🔧 Setup Instructions
@@ -38,7 +38,7 @@ Before you begin, ensure you have the following installed:
 
 4. **Open your browser and navigate to:**
    ```
-   http://localhost:3000
+   http://localhost:5173
    ```
 
 ## 📚 Additional Information
